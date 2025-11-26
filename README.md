@@ -1,9 +1,26 @@
-**This repo is supposed to be used as config by NvChad users!**
+# Neovim Config
 
-- The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
-- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
-- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
+## Mappings
 
-# Credits
+### Leader d - LSP & Diagnostics
 
-1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
+| Key | Description |
+|-----|-------------|
+| `<leader>dd` | Diagnostic open float |
+| `<leader>dl` | Diagnostic loclist |
+| `<leader>dq` | Diagnostic quickfix |
+| `<leader>dn` | Diagnostic next |
+| `<leader>dp` | Diagnostic prev |
+| `<leader>dh` | Diagnostic hide |
+| `<leader>ds` | Diagnostic show |
+| `<leader>dt` | Diagnostic toggle |
+| `<leader>da` | LSP code action |
+| `<leader>df` | LSP format |
+| `<leader>dr` | LSP rename |
+| `<leader>dR` | LSP references |
+| `<leader>di` | LSP implementation |
+| `<leader>dD` | LSP type definition |
+| `<leader>dk` | LSP hover |
+| `<leader>dK` | LSP signature help |
+| `]d` | Diagnostic next |
+| `[d` | Diagnostic prev |
